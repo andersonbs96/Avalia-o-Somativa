@@ -1,0 +1,267 @@
+@media screen and (max-width: 1240px){
+    .header {
+        width: 95%;
+    }
+    .main {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1080px){
+    .header {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .main {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .boletimDados select{
+        width: 500px;
+    } 
+    .boletimDados .p{
+        padding-left: 60px;
+    }
+    .boletimDados ul li {
+        margin: auto;
+        width: 180px;
+        height: 25px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+    .boletimDados ul .classMedia {
+        width: 125px;
+        height: 125px;
+        margin-right: 20px;
+    }
+    .boletimDados ul .p_Media{
+        font-size: 30px;
+        line-height: 125px;
+        margin: 0px 0px 10px 0px;
+    }
+    .boletimMediaGeral ul {
+        margin: 20px 0px 100px 50px;
+    }
+    .boletimMediaGeral table {
+        margin: -260px 20px 0px 0px;
+    }
+    .boletimMediaGeral table .cabecalhoAluno {
+        width: 400px;
+    }
+    .boletimMediaGeral table .corpoMedia {
+        width: 160px;
+    }
+    .boletimMediaGeral table .corpoAluno {
+        width: 400px;
+    }
+    .boletimMediaGeral table .corpoMedia {
+        width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+   .header {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .header h1{
+        font-size: 40px;
+    }
+    .main {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .cadastrarDados input {
+        font-size: 18px;
+        margin: auto;
+    }
+    .cadastrarDados .classNome {  
+        width: 500px;
+        height: 25px; 
+    }
+    .cadastrarDados .classNota {
+        width: 100px;
+        height: 25px;
+    }
+    .boletimDados select {        
+        width: 400px;
+        height: 30px;
+    }
+    .boletimDados .p{
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 55px;
+    }
+    .boletimDados ul li{
+        width: 150px;
+        height: 25px;
+        font-size: 15px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .boletimDados ul .classMedia {
+        width: 115px;
+        height: 115px;
+        margin: -10px 20px 50px 0px;
+    }
+    .boletimDados ul .p_Media{
+        font-size: 30px;
+        line-height: 115px;
+        margin: 0px 0px 10px 0px;
+    }
+    .boletimMediaGeral ul {
+        margin-left: 20px;
+    }
+    .boletimMediaGeral ul .classMediaGeral {
+        width: 115px;
+        height: 115px;
+    }
+    .boletimMediaGeral ul .p_mediaGeral{
+        font-size: 30px;
+        line-height: 115px;
+    }
+    .boletimMediaGeral table {
+        float: right;
+        margin-top: -220px;
+        margin-right: 20px;
+    }
+    .boletimMediaGeral table .cabecalhoAluno {
+        width: 250px;
+        height: 15px;
+        font-size: 15px;
+    }
+    .boletimMediaGeral table .cabecalhoMedia {
+        width: 100px;
+        height: 15px;  
+        font-size: 15px;    
+    }
+    .boletimMediaGeral table .corpoAluno {
+        width: 250px;
+        height: 15px;
+        font-size: 12px;
+    }
+    .boletimMediaGeral table .corpoMedia {
+        width: 100px;
+        height: 15px;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 680px){
+    .header {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .header h1{
+        font-size: 35px;
+    }
+    .main {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .main h3 {
+        font-size: 25px;    
+    }
+    .cadastrarDados input {
+        font-size: 15px;
+        margin: auto;
+    }
+    .cadastrarDados .classNome {   
+        width: 400px;
+        height: 20px;
+    }
+    .cadastrarDados .classNota {
+        width: 150px;
+        height: 20px;
+        margin: 30px 10px 0px 10px;
+    }
+    
+    .boletimDados select {
+        width: 250px;
+        height: 30px;
+    }
+    .boletimDados .p{
+        font-size: 15px;
+        margin-left: -30px;
+        margin-top: 5px;
+    }
+    .boletimDados ul li{
+        width: 115px;
+        height: 20px;
+        font-size: 15px;
+    }
+    .boletimDados ul .classMedia {
+        width: 115px;
+        height: 115px;
+        margin-top: 0px;
+    }
+    .boletimDados ul .p_Media{
+        font-size: 30px;
+        line-height: 115px;
+    }
+    .boletimMediaGeral table {
+        margin-top: -50px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .header {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .header h1{
+        font-size: 25px;
+    }
+    .main {
+        width: 95%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .cadastrarDados .classNome {   
+        width: 300px;
+        height: 20px;
+    }
+    .cadastrarDados .classNota {
+        width: 150px;
+        height: 20px;
+    }
+    .boletimDados {
+        display: inline-grid;
+        justify-content: center;
+    }
+    .boletimDados ul li{
+        width: 140px;
+        height: 20px;
+        font-size: 15px;  
+    }
+    .boletimDados ul .classMedia {
+        width: 95px;
+        height: 95px;
+        margin-right: 20px;
+    }
+    .boletimDados ul .p_Media{
+        font-size: 30px;
+        line-height: 95px;
+    }
+    .boletimDados ul .classMedia {
+        width: 95px;
+        height: 95px;
+    }    
+   .boletimDados ul .p_Media{
+        font-size: 30px;
+        line-height: 95px;
+    }
+    .boletimMediaGeral table {
+        margin-top: -50px;
+        margin-left: 20px;
+        justify-content: center;
+    }
+}

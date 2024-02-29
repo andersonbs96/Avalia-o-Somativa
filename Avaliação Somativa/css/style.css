@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "colors.css";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Noto Sans, sans-serif;
+	justify-content: center;
+}
+body {
+	background-color: var(--back-color);
+	color: var(--main-font);
+	width: 100%;
+}
+.header {
+	background-color: var(--main-color);
+	width: 1260px;
+	height: 100px;
+	margin: 10px auto;
+	border-style: double;
+	border-color: var(--main-font);
+	border-width: 10px;
+	border-radius: 5px;
+}
+.header h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+	text-transform: uppercase;
+}
+.main {
+	background-color: var(--main-color);
+	width: 1260px;
+	height: auto;
+	margin: 0px auto 20px auto;
+	border-style: double;
+	border-color: var(--main-font);
+	border-width: 10px;
+	border-radius: 5px;
+}
+.main h3 {
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+.cadastrarDados {
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.cadastrarDados input {
+	background-color: var(--form-color);
+	border-color: var(--main-font);
+	border-style: double;
+	border-width: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+}
+.cadastrarDados .classNome {	
+	width: 700px;
+	height: 30px;
+	margin-top: 50px;	
+}
+.cadastrarDados .classNota {
+	width: 200px;
+	height: 30px;
+	margin: 30px 10px 0px 10px;
+}
+.cadastrarDados .classBotao {
+	background-color: var(--botao-color);
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 35px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: var(--main-font);
+	border-style: solid;
+	justify-content: center;
+}
+.cadastrarDados .classBotao:hover {
+	background-color: var(--hover-color);
+}
+.boletimDados {
+	background-color: var(--boletim-color);
+	margin: 30px 10px 10px 10px;
+	height: auto;
+	border-style: solid;
+	border-width: 5px;
+	justify-content: center;
+}
+.boletimDados h3 {
+	color: var(--boletim-font);
+}
+.boletimDados select {
+	background-color: var(--form-color);
+	width: 700px;
+	height: 30px;
+	border-style: double;
+	border-width: 5px;
+	border-color: var(--boletim-font);
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.boletimDados .p{
+	color: var(--boletim-font);
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 75px;
+}
+.boletimDados ul {
+	margin-left: 20px;
+	list-style-type: none;
+}
+.boletimDados ul li{
+	background-color: var(--form-color);
+	width: 200px;
+	height: 30px;
+	display: inline-block;
+	color: var(--boletim-font);
+	margin: auto;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	border-style: double;
+	border-width: 5px;
+	border-color: var(--boletim-font);
+	border-radius: 5px;
+	line-height: 30px;
+}
+.boletimDados ul .classMedia {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	float: right;
+	margin: -95px 20px 0px 0px;
+}
+.boletimDados ul .p_Media{
+	font-size: 40px;
+	line-height: 150px;
+	margin-bottom: 10px;
+}
+.notaBaixa {
+    color: #ff0000;
+}
+
+.notaMedia {
+    color: #ffff00;
+}
+
+.notaAlta {
+    color: #00ff00;
+}
+.boletimDados .lista2 {
+	margin: 0px 0px 20px 20px;
+}
+.boletimMediaGeral {
+	background-color: var(--boletim-color);
+	margin: 10px;
+	height: auto;
+	border-style: solid;
+	border-width: 5px;
+}
+.boletimMediaGeral ul {
+	margin: 20px 0px 100px 100px;
+	list-style-type: none;
+}
+.boletimMediaGeral ul .classMediaGeral {
+	background-color: var(--form-color);
+	width: 150px;
+	height: 150px;
+	color: var(--boletim-font);
+	margin-left: 0px;
+	font-weight: bold;
+	text-align: center;
+	border-style: double;
+	border-width: 5px;
+	border-color: var(--boletim-font);
+	border-radius: 5px;
+}
+.boletimMediaGeral ul .p_mediaGeral{
+	font-size: 40px;
+	line-height: 150px;
+	margin-bottom: 10px;
+}
+.boletimMediaGeral table {
+	float: right;
+	margin: -260px 100px 0px 0px;
+}
+.boletimMediaGeral table .cabecalhoAluno {
+	background-color: var(--botao-color);
+	width: 400px;
+	height: 20px;
+	border-width: 2px;
+	border-style: double;
+}
+.boletimMediaGeral table .cabecalhoMedia {
+	background-color: var(--botao-color);
+	width: 200px;
+	height: 20px;
+	border-width: 2px;
+	border-style: double;
+}
+.boletimMediaGeral table .corpoAluno {
+	background-color: var(--main-color);
+	width: 400px;
+	height: 20px;
+	text-align: center;
+	border-width: 2px;
+	border-style: double;
+}
+.boletimMediaGeral table .corpoMedia {
+	background-color: var(--main-color);
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	border-width: 2px;
+	border-style: double;
+}

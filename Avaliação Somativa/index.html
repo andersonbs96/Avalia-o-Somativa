@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+    <title>Avaliação Somativa</title>
+</head>
+<body>
+    <header class="header">
+	    <h1>Avaliação Somativa</h1>
+    </header>
+    <main class="main">
+        <div class="cadastrarDados">
+            <h3>Cadastro</h3>
+            <br>
+            <input class="classNome" id="setNome" type="text" placeholder="Nome completo do(a) aluno(a)">
+            <br>
+            <input class="classNota" id="setNota1" type="number" placeholder="1º Bimestre">
+            <input class="classNota" id="setNota2" type="number" placeholder="2º Bimestre">
+            <input class="classNota" id="setNota3" type="number" placeholder="3º Bimestre">
+            <input class="classNota" id="setNota4" type="number" placeholder="4º Bimestre">
+            <br>
+            <button class="classBotao" id="btnCad" onclick="cadastrar()">Cadastrar</button>
+        </div>
+        <div class="boletimDados">
+            <h3>Boletim</h3>
+            <select class="selectName" id="selectAluno" onchange="buscarDadosAlunos()">
+                <option id="optionRemover"> -- Escolha um nome -- </option>
+            </select>
+            <p class="p">Nome do Aluno<p>
+            <br>
+            <ul>
+                <li class="classMedia"><p class="p_Media" id="getMedia"> - </p>Média</li>
+                <li><p id="situacao"> - </p>Situação</li>
+            </ul>
+            <br>	
+            <ul class="lista2">
+                <li class="classNotaLista"><p id="getNota1"> - </p>1º Bimestre</li>
+                <li class="classNotaLista"><p id="getNota2"> - </p>2º Bimestre</li>
+                <li class="classNotaLista"><p id="getNota3"> - </p>3º Bimestre</li>
+                <li class="classNotaLista"><p id="getNota4"> - </p>4º Bimestre</li>
+            </ul>
+        </div>
+        <div class="boletimMediaGeral">
+            <h3>Media Geral da Turma</h3>
+            <ul>
+                <li class="classMediaGeral"><p class="p_mediaGeral" id="getMediaGeral"> - </p>Média Geral</li>
+            </ul>
+            <table id=tabelaMedia>
+                <thead>
+                    <tr>
+                        <th class="cabecalhoAluno">Aluno:</th>
+                        <th class="cabecalhoMedia">Média:</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaCorpo">
+                        
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
